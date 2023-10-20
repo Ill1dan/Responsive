@@ -158,6 +158,17 @@ nav ul{
         margin-top: 10%;
     }
 }
+@media(max-width: 350px) {
+    html {
+        font-size: 6px;
+    }
+    .container{
+        align-items: flex-start;
+    }
+    nav {
+        margin-top: 10%;
+    }
+}
 @media(max-width: 300px) {
     html {
         font-size: 5px;
