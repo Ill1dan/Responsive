@@ -195,6 +195,19 @@ nav ul{
         margin-top: 10%;
     }
 }
+@media(max-width: 200px) {
+    html {
+        font-size: 3px;
+    }
+
+    .container {
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10%;
+    }
+}
 #product{
     transform: scale(0);
     transition: .5s;
